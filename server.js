@@ -4,6 +4,7 @@ const config = require("config");
 
 const app = express();
 
+// gitignored configuration
 const db = config.get("mongoURI");
 
 mongoose
